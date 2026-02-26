@@ -1,0 +1,37 @@
+{
+    "task_name": "rickmorty-multiverse-explorer-m1",
+    "task_type": "SingleUserTurn",
+    "needed_mcp_servers": [
+        "filesystem"
+    ],
+    "needed_local_tools": [
+        "rickmorty_api",
+        "skill_cache",
+        "claim_done"
+    ],
+    "max_turns": 80,
+    "timeout": 2400,
+    "stop": {
+        "tool_names": [
+            "local-claim_done"
+        ]
+    },
+    "meta": {
+        "category": "scaled_tasks",
+        "difficulty": "medium",
+        "estimated_api_calls": 16,
+        "subtask_count": 4,
+        "calls_per_subtask": 4,
+        "tools_used": [
+            "rickmorty_get_character",
+            "rickmorty_get_location",
+            "rickmorty_search_characters",
+            "rickmorty_get_character_episodes"
+        ],
+        "skill_mode_target": true,
+        "expected_repetitions": 4,
+        "description": "Rick and Morty character analysis with 4 characters \u00d7 4 APIs (medium)",
+        "base_task": "rickmorty-multiverse-explorer",
+        "scale_level": "m1"
+    }
+}

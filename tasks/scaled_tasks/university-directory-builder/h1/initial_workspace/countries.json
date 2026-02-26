@@ -1,0 +1,11 @@
+{
+  "countries_to_include": [
+    {"country": "Canada", "alpha_code": "CA"},
+    {"country": "United Kingdom", "alpha_code": "GB"},
+    {"country": "France", "alpha_code": "FR"},
+    {"country": "Germany", "alpha_code": "DE"},
+    {"country": "Australia", "alpha_code": "AU"}
+  ],
+  "output_file": "university_directory.json"
+}
+

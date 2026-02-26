@@ -1,0 +1,13 @@
+{
+  "nationalities_to_include": [
+    {"code": "US", "name": "United States", "region": "North America"},
+    {"code": "GB", "name": "United Kingdom", "region": "Europe"},
+    {"code": "DE", "name": "Germany", "region": "Europe"},
+    {"code": "FR", "name": "France", "region": "Europe"},
+    {"code": "AU", "name": "Australia", "region": "Oceania"},
+    {"code": "BR", "name": "Brazil", "region": "South America"}
+  ],
+  "users_per_nationality": 5,
+  "output_file": "user_database.json"
+}
+

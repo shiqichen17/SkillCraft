@@ -1,0 +1,15 @@
+# a word mcp server
+# Source: https://github.com/GongRzhe/Office-Word-MCP-Server
+# Toolathlon Version: The same
+type: stdio
+name: word
+params:
+  command: uvx
+  args:
+    # - "run"
+    - "--from"
+    - "office-word-mcp-server"
+    - "word_mcp_server"
+  cwd: "${agent_workspace}"
+client_session_timeout_seconds: 10
+cache_tools_list: true

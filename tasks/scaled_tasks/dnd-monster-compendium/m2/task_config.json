@@ -1,0 +1,37 @@
+{
+    "task_name": "dnd-monster-compendium-m2",
+    "task_type": "SingleUserTurn",
+    "needed_mcp_servers": [
+        "filesystem"
+    ],
+    "needed_local_tools": [
+        "dnd_api",
+        "skill_cache",
+        "claim_done"
+    ],
+    "max_turns": 80,
+    "timeout": 2400,
+    "stop": {
+        "tool_names": [
+            "local-claim_done"
+        ]
+    },
+    "meta": {
+        "category": "scaled_tasks",
+        "difficulty": "medium",
+        "estimated_api_calls": 16,
+        "subtask_count": 4,
+        "calls_per_subtask": 4,
+        "tools_used": [
+            "dnd_get_monster",
+            "dnd_get_class",
+            "dnd_get_race",
+            "dnd_get_equipment_category"
+        ],
+        "skill_mode_target": true,
+        "expected_repetitions": 4,
+        "description": "D&D monster compendium with 4 monsters \u00d7 4 APIs (medium)",
+        "base_task": "dnd-monster-compendium",
+        "scale_level": "m2"
+    }
+}

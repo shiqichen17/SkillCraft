@@ -1,0 +1,12 @@
+{
+  "anime_to_analyze": [
+    {"mal_id": 1, "title": "Cowboy Bebop"},
+    {"mal_id": 5114, "title": "Fullmetal Alchemist: Brotherhood"},
+    {"mal_id": 1535, "title": "Death Note"},
+    {"mal_id": 16498, "title": "Attack on Titan"},
+    {"mal_id": 9253, "title": "Steins;Gate"},
+    {"mal_id": 30276, "title": "One Punch Man"}
+  ],
+  "output_file": "anime_analysis_results.json"
+}
+

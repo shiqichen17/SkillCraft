@@ -1,0 +1,15 @@
+# k8s
+# Source: https://github.com/Flux159/mcp-server-kubernetes
+# Toolathlon Version: https://github.com/lockon-n/mcp-server-kubernetes
+type: stdio
+name: k8s
+params:
+  command: npx
+  args:
+    - "-y"
+    - "mcp-server-kubernetes"
+  env:
+    KUBECONFIG_PATH: "${token.kubeconfig_path}"
+  # cwd: "${agent_workspace}" # do not add this for compatibility
+client_session_timeout_seconds: 600
+cache_tools_list: true

@@ -1,0 +1,13 @@
+# Google Calendar
+# Source: https://github.com/GongRzhe/Calendar-Autoauth-MCP-Server
+# Toolathlon Version: The same
+type: stdio
+name: google_calendar
+params:
+  command: npx
+  args:
+    - "-y"
+    - "@gongrzhe/server-calendar-autoauth-mcp"
+  cwd: "${agent_workspace}"
+client_session_timeout_seconds: 10
+cache_tools_list: true

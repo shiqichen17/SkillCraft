@@ -1,0 +1,12 @@
+{
+  "collections_to_create": [
+    {"id": 1, "name": "Short Facts", "max_length": 50, "count": 5},
+    {"id": 2, "name": "Medium Facts", "max_length": 100, "count": 5},
+    {"id": 3, "name": "Long Facts", "max_length": 200, "count": 5},
+    {"id": 4, "name": "Random Mix", "max_length": null, "count": 5},
+    {"id": 5, "name": "Breed Information", "type": "breeds"},
+    {"id": 6, "name": "Bonus Facts", "max_length": 150, "count": 5}
+  ],
+  "output_file": "cat_encyclopedia.json"
+}
+

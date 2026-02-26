@@ -1,0 +1,38 @@
+{
+    "task_name": "pokeapi-pokedex-m2",
+    "task_type": "SingleUserTurn",
+    "needed_mcp_servers": [
+        "filesystem"
+    ],
+    "needed_local_tools": [
+        "pokemon_tools",
+        "skill_cache",
+        "claim_done"
+    ],
+    "max_turns": 80,
+    "timeout": 2400,
+    "stop": {
+        "tool_names": [
+            "local-claim_done"
+        ]
+    },
+    "meta": {
+        "category": "scaled_tasks",
+        "difficulty": "medium",
+        "estimated_api_calls": 16,
+        "subtask_count": 4,
+        "calls_per_subtask": 4,
+        "tools_used": [
+            "pokemon_get_species",
+            "pokemon_get_evolution",
+            "pokemon_get_moves",
+            "pokemon_get_abilities"
+        ],
+        "skill_mode_target": true,
+        "expected_repetitions": 4,
+        "description": "Pokemon Pokedex with 4 Pokemon \u00d7 4 APIs (medium)",
+        "base_task": "pokeapi-pokedex",
+        "scale_level": "m2",
+        "constraint": "evolution requires species to be called first"
+    }
+}

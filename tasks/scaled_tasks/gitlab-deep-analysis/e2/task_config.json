@@ -1,0 +1,24 @@
+{
+    "task_name": "gitlab-deep-analysis-e2",
+    "task_type": "SingleUserTurn",
+    "needed_mcp_servers": ["filesystem"],
+    "needed_local_tools": ["gitlab_api", "skill_cache", "claim_done"],
+    "max_turns": 80,
+    "timeout": 2400,
+    "stop": {
+        "tool_names": ["local-claim_done"]
+    },
+    "meta": {
+        "category": "scaled_tasks",
+        "difficulty": "easy",
+        "estimated_api_calls": 9,
+        "subtask_count": 3,
+        "calls_per_subtask": 3,
+        "tools_used": ["gitlab_get_project_info", "gitlab_get_branches", "gitlab_get_issues"],
+        "skill_mode_target": true,
+        "expected_repetitions": 3,
+        "description": "Analysis of 3 GitLab repositories focusing on branches and issues (easy difficulty)",
+        "base_task": "gitlab-deep-analysis",
+        "scale_level": "e2"
+    }
+}

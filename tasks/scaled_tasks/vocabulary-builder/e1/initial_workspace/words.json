@@ -1,0 +1,12 @@
+{
+  "words_to_define": [
+    {"word": "ephemeral", "expected_difficulty": "advanced"},
+    {"word": "ubiquitous", "expected_difficulty": "advanced"},
+    {"word": "pragmatic", "expected_difficulty": "intermediate"},
+    {"word": "eloquent", "expected_difficulty": "intermediate"},
+    {"word": "resilient", "expected_difficulty": "intermediate"},
+    {"word": "serendipity", "expected_difficulty": "advanced"}
+  ],
+  "output_file": "vocabulary_cards.json"
+}
+

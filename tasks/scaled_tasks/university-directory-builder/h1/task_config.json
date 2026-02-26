@@ -1,0 +1,38 @@
+{
+    "task_name": "university-directory-builder-h1",
+    "task_type": "SingleUserTurn",
+    "needed_mcp_servers": [
+        "filesystem"
+    ],
+    "needed_local_tools": [
+        "university_api",
+        "skill_cache",
+        "claim_done"
+    ],
+    "max_turns": 100,
+    "timeout": 3600,
+    "stop": {
+        "tool_names": [
+            "local-claim_done"
+        ]
+    },
+    "meta": {
+        "category": "scaled_tasks",
+        "difficulty": "hard",
+        "estimated_api_calls": 25,
+        "subtask_count": 5,
+        "calls_per_subtask": 5,
+        "tools_used": [
+            "university_by_country",
+            "university_by_name",
+            "university_search",
+            "university_details",
+            "university_by_domain"
+        ],
+        "skill_mode_target": true,
+        "expected_repetitions": 5,
+        "description": "University directory with 5 countries \u00d7 5 APIs (hard)",
+        "base_task": "university-directory-builder",
+        "scale_level": "h1"
+    }
+}

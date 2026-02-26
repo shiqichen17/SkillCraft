@@ -1,0 +1,12 @@
+{
+  "users_to_analyze": [
+    {"user_id": 1, "expected_name": "Leanne Graham"},
+    {"user_id": 2, "expected_name": "Ervin Howell"},
+    {"user_id": 3, "expected_name": "Clementine Bauch"},
+    {"user_id": 4, "expected_name": "Patricia Lebsack"},
+    {"user_id": 5, "expected_name": "Chelsey Dietrich"},
+    {"user_id": 6, "expected_name": "Mrs. Dennis Schulist"}
+  ],
+  "output_file": "blog_analysis.json"
+}
+

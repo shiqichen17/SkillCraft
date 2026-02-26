@@ -1,0 +1,12 @@
+{
+  "breeds_to_document": [
+    {"breed": "retriever", "expected_sub_breeds": ["golden", "labrador"]},
+    {"breed": "shepherd", "expected_sub_breeds": ["german", "australian"]},
+    {"breed": "bulldog", "expected_sub_breeds": ["english", "french", "boston"]},
+    {"breed": "hound", "expected_sub_breeds": ["afghan", "basset", "blood"]},
+    {"breed": "terrier", "expected_sub_breeds": ["yorkshire", "scottish"]},
+    {"breed": "poodle", "expected_sub_breeds": ["standard", "miniature", "toy"]}
+  ],
+  "output_file": "dog_encyclopedia.json"
+}
+

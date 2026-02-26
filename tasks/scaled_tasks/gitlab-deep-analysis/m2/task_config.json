@@ -1,0 +1,24 @@
+{
+    "task_name": "gitlab-deep-analysis-m2",
+    "task_type": "SingleUserTurn",
+    "needed_mcp_servers": ["filesystem"],
+    "needed_local_tools": ["gitlab_api", "skill_cache", "claim_done"],
+    "max_turns": 80,
+    "timeout": 2400,
+    "stop": {
+        "tool_names": ["local-claim_done"]
+    },
+    "meta": {
+        "category": "scaled_tasks",
+        "difficulty": "medium",
+        "estimated_api_calls": 16,
+        "subtask_count": 4,
+        "calls_per_subtask": 4,
+        "tools_used": ["gitlab_get_project_info", "gitlab_get_contributors", "gitlab_get_branches", "gitlab_get_issues"],
+        "skill_mode_target": true,
+        "expected_repetitions": 4,
+        "description": "Analysis of 4 GitLab repositories with project info, contributors, branches, and issues (medium difficulty)",
+        "base_task": "gitlab-deep-analysis",
+        "scale_level": "m2"
+    }
+}

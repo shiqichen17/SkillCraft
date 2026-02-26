@@ -1,0 +1,17 @@
+{
+  "regions_to_analyze": [
+    {"name": "Tokyo, Japan", "latitude": 35.6895, "longitude": 139.6917},
+    {"name": "Los Angeles, USA", "latitude": 34.0522, "longitude": -118.2437},
+    {"name": "Jakarta, Indonesia", "latitude": -6.2088, "longitude": 106.8456},
+    {"name": "Santiago, Chile", "latitude": -33.4489, "longitude": -70.6693},
+    {"name": "Istanbul, Turkey", "latitude": 41.0082, "longitude": 28.9784},
+    {"name": "Wellington, New Zealand", "latitude": -41.2866, "longitude": 174.7756}
+  ],
+  "query_parameters": {
+    "radius_km": 500,
+    "min_magnitude": 2.5,
+    "days_back": 30
+  },
+  "output_file": "earthquake_analysis_results.json"
+}
+

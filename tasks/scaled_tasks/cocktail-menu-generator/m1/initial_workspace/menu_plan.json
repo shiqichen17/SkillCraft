@@ -1,0 +1,12 @@
+{
+  "cocktails_to_include": [
+    {"name": "Margarita", "search_term": "margarita"},
+    {"name": "Mojito", "search_term": "mojito"},
+    {"name": "Old Fashioned", "search_term": "old fashioned"},
+    {"name": "Martini", "search_term": "martini"},
+    {"name": "Cosmopolitan", "search_term": "cosmopolitan"},
+    {"name": "Piña Colada", "search_term": "pina colada"}
+  ],
+  "output_file": "cocktail_menu.json"
+}
+

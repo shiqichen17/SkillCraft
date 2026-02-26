@@ -1,0 +1,12 @@
+{
+  "dishes_to_include": [
+    {"name": "Spaghetti Carbonara", "search_term": "carbonara", "cuisine": "Italian"},
+    {"name": "Tandoori Chicken", "search_term": "tandoori", "cuisine": "Indian"},
+    {"name": "Pad Thai", "search_term": "pad thai", "cuisine": "Thai"},
+    {"name": "Beef Bourguignon", "search_term": "beef bourguignon", "cuisine": "French"},
+    {"name": "Sushi", "search_term": "sushi", "cuisine": "Japanese"},
+    {"name": "Tacos", "search_term": "tacos", "cuisine": "Mexican"}
+  ],
+  "output_file": "recipe_cookbook.json"
+}
+

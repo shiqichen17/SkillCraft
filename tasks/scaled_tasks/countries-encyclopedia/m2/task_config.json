@@ -1,0 +1,25 @@
+{
+    "task_name": "countries-encyclopedia-m2",
+    "task_type": "SingleUserTurn",
+    "needed_mcp_servers": ["filesystem"],
+    "needed_local_tools": ["countries_tools", "skill_cache", "claim_done"],
+    "max_turns": 80,
+    "timeout": 2400,
+    "stop": {
+        "tool_names": ["local-claim_done"]
+    },
+    "meta": {
+        "category": "scaled_tasks",
+        "difficulty": "medium",
+        "estimated_api_calls": 16,
+        "subtask_count": 4,
+        "calls_per_subtask": 4,
+        "tools_used": ["countries_get_region", "countries_get_details", "countries_get_borders", "countries_get_by_language"],
+        "skill_mode_target": true,
+        "expected_repetitions": 4,
+        "description": "Generate encyclopedia entries for 4 world regions with region, details, borders, and language (medium difficulty)",
+        "api_source": "REST Countries API (free, no API key required)",
+        "base_task": "countries-encyclopedia",
+        "scale_level": "m2"
+    }
+}

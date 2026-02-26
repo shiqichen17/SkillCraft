@@ -1,0 +1,12 @@
+{
+  "monsters_to_document": [
+    {"name": "Adult Red Dragon", "index": "adult-red-dragon"},
+    {"name": "Beholder", "index": "beholder"},
+    {"name": "Aboleth", "index": "aboleth"},
+    {"name": "Lich", "index": "lich"},
+    {"name": "Tarrasque", "index": "tarrasque"},
+    {"name": "Ancient Black Dragon", "index": "ancient-black-dragon"}
+  ],
+  "output_file": "monster_compendium.json"
+}
+

@@ -1,0 +1,36 @@
+{
+    "task_name": "world-bank-economic-snapshot-e1",
+    "task_type": "SingleUserTurn",
+    "needed_mcp_servers": [
+        "filesystem"
+    ],
+    "needed_local_tools": [
+        "worldbank_api",
+        "skill_cache",
+        "claim_done"
+    ],
+    "max_turns": 80,
+    "timeout": 2400,
+    "stop": {
+        "tool_names": [
+            "local-claim_done"
+        ]
+    },
+    "meta": {
+        "category": "scaled_tasks",
+        "difficulty": "easy",
+        "estimated_api_calls": 9,
+        "subtask_count": 3,
+        "calls_per_subtask": 3,
+        "tools_used": [
+            "worldbank_economic_snapshot",
+            "worldbank_gdp",
+            "worldbank_country_info"
+        ],
+        "skill_mode_target": true,
+        "expected_repetitions": 3,
+        "description": "Economic snapshot with 3 countries \u00d7 3 APIs (easy)",
+        "base_task": "world-bank-economic-snapshot",
+        "scale_level": "e1"
+    }
+}

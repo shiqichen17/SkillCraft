@@ -1,0 +1,12 @@
+{
+  "shows_to_analyze": [
+    {"tvmaze_id": 169, "title": "Breaking Bad"},
+    {"tvmaze_id": 82, "title": "Game of Thrones"},
+    {"tvmaze_id": 526, "title": "The Office"},
+    {"tvmaze_id": 431, "title": "Friends"},
+    {"tvmaze_id": 2993, "title": "Stranger Things"},
+    {"tvmaze_id": 38963, "title": "The Mandalorian"}
+  ],
+  "output_file": "tv_series_analysis.json"
+}
+

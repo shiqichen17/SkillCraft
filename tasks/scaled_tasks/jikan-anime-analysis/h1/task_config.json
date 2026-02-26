@@ -1,0 +1,38 @@
+{
+    "task_name": "jikan-anime-analysis-h1",
+    "task_type": "SingleUserTurn",
+    "needed_mcp_servers": [
+        "filesystem"
+    ],
+    "needed_local_tools": [
+        "jikan_api",
+        "skill_cache",
+        "claim_done"
+    ],
+    "max_turns": 100,
+    "timeout": 3600,
+    "stop": {
+        "tool_names": [
+            "local-claim_done"
+        ]
+    },
+    "meta": {
+        "category": "scaled_tasks",
+        "difficulty": "hard",
+        "estimated_api_calls": 25,
+        "subtask_count": 5,
+        "calls_per_subtask": 5,
+        "tools_used": [
+            "jikan_get_anime_details",
+            "jikan_get_anime_characters",
+            "jikan_get_anime_episodes",
+            "jikan_get_anime_recommendations",
+            "jikan_get_anime_statistics"
+        ],
+        "skill_mode_target": true,
+        "expected_repetitions": 5,
+        "description": "Anime analysis with 5 anime \u00d7 5 APIs (hard)",
+        "base_task": "jikan-anime-analysis",
+        "scale_level": "h1"
+    }
+}

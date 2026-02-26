@@ -1,0 +1,16 @@
+# Github MCP Server - The following directly use the built binary of my forked version
+# Source: https://github.com/github/github-mcp-server
+# Toolathlon Version: https://github.com/lockon-n/github-mcp-server
+type: stdio
+name: github
+params:
+  command: ${local_binary_paths}/github-mcp-server # this is built by go on linux
+  args:
+    - "stdio"
+  env:
+    GITHUB_PERSONAL_ACCESS_TOKEN: "${token.github_token}" 
+    GITHUB_ALLOWED_REPOS: "${token.github_allowed_repos}" # to control the access to specific repos
+    GITHUB_READ_ONLY: "${token.github_read_only}" # to control whether to ban write
+  # cwd: "${agent_workspace}" # do not add this for compatibility
+client_session_timeout_seconds: 50
+cache_tools_list: true

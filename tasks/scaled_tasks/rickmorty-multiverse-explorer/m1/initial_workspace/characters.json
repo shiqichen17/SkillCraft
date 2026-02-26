@@ -1,0 +1,12 @@
+{
+  "characters_to_analyze": [
+    {"id": 1, "name": "Rick Sanchez"},
+    {"id": 2, "name": "Morty Smith"},
+    {"id": 3, "name": "Summer Smith"},
+    {"id": 4, "name": "Beth Smith"},
+    {"id": 5, "name": "Jerry Smith"},
+    {"id": 242, "name": "Mr. Meeseeks"}
+  ],
+  "output_file": "rickmorty_analysis.json"
+}
+

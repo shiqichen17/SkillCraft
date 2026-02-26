@@ -1,0 +1,17 @@
+# WooCommerce MCP Server
+# Source: https://github.com/lockon-n/woocommerce-mcp
+# Toolathlon Version: The same
+type: stdio
+name: woocommerce
+params:
+  command: npx
+  args:
+    - "-y"
+    - "@lockon0927/woocommerce-mcp"
+  env:
+    WORDPRESS_SITE_URL: "${token.woocommerce_site_url}"
+    WOOCOMMERCE_CONSUMER_KEY: "${token.woocommerce_api_key}"
+    WOOCOMMERCE_CONSUMER_SECRET: "${token.woocommerce_api_secret}"
+  cwd: "${agent_workspace}"
+client_session_timeout_seconds: 10
+cache_tools_list: true

@@ -1,0 +1,13 @@
+{
+  "characters_to_create": [
+    {"build_name": "Human Fighter", "class": "fighter", "race": "human"},
+    {"build_name": "Elf Wizard", "class": "wizard", "race": "elf"},
+    {"build_name": "Dwarf Cleric", "class": "cleric", "race": "dwarf"},
+    {"build_name": "Halfling Rogue", "class": "rogue", "race": "halfling"},
+    {"build_name": "Dragonborn Paladin", "class": "paladin", "race": "dragonborn"},
+    {"build_name": "Tiefling Warlock", "class": "warlock", "race": "tiefling"}
+  ],
+  "spellcasting_classes": ["wizard", "cleric", "paladin", "warlock"],
+  "output_file": "dnd_character_templates.json"
+}
+

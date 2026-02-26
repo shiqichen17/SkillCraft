@@ -1,0 +1,12 @@
+{
+  "countries_to_analyze": [
+    {"name": "United States", "code": "US"},
+    {"name": "China", "code": "CHN"},
+    {"name": "Japan", "code": "JPN"},
+    {"name": "Germany", "code": "DEU"},
+    {"name": "India", "code": "IND"},
+    {"name": "Brazil", "code": "BRA"}
+  ],
+  "output_file": "economic_snapshot.json"
+}
+

@@ -1,0 +1,16 @@
+# WandB
+# Source: https://github.com/riballes/mcp-server
+# Toolathlon Version: https://github.com/lockon-n/wandb-mcp-server
+type: stdio
+name: wandb
+params:
+  command: uvx
+  args:
+    - "--from"
+    - "wandb-mcp-server"
+    - "wandb_mcp_server"
+  env:
+    WANDB_API_KEY: "${token.wandb_api_key}"
+  cwd: "${agent_workspace}"
+client_session_timeout_seconds: 10
+cache_tools_list: true

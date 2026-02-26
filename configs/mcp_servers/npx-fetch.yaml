@@ -1,0 +1,13 @@
+# Fetch web content and convert to various formats (HTML, JSON, Markdown, plain text)
+# Source: https://github.com/tokenizin-agency/mcp-npx-fetch
+# Toolathlon Version: The same
+type: stdio
+name: fetch
+params:
+  command: npx
+  args:
+    - "-y"
+    - "@tokenizin/mcp-npx-fetch"
+  cwd: "${agent_workspace}"
+client_session_timeout_seconds: 100
+cache_tools_list: true

@@ -1,0 +1,14 @@
+# Time server - get current time
+# Source: https://github.com/modelcontextprotocol/servers/tree/main/src/time
+# Toolathlon Version: The same
+type: stdio
+name: time
+params:
+  command: uv
+  args:
+    - "run"
+    - "-m"
+    - "mcp_server_time"
+    - "--local-timezone=${token.timezone}"
+  cwd: "${agent_workspace}"
+cache_tools_list: true

@@ -1,0 +1,37 @@
+{
+    "task_name": "local-dna-analysis-e1",
+    "task_type": "SingleUserTurn",
+    "needed_mcp_servers": [
+        "filesystem"
+    ],
+    "needed_local_tools": [
+        "dna_tools",
+        "skill_cache",
+        "claim_done"
+    ],
+    "max_turns": 100,
+    "timeout": 2400,
+    "stop": {
+        "tool_names": [
+            "local-claim_done"
+        ]
+    },
+    "meta": {
+        "category": "scaled_tasks",
+        "difficulty": "easy",
+        "estimated_api_calls": 9,
+        "subtask_count": 3,
+        "calls_per_subtask": 3,
+        "tools_used": [
+            "dna_is_valid",
+            "dna_count_nucleotides",
+            "dna_find_max_nucleotide"
+        ],
+        "skill_mode_target": true,
+        "expected_repetitions": 3,
+        "description": "DNA analysis with 3 sequences \u00d7 3 APIs (easy)",
+        "base_task": "local-dna-analysis",
+        "scale_level": "e1",
+        "constraint": null
+    }
+}

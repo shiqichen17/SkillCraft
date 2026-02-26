@@ -1,0 +1,36 @@
+{
+    "task_name": "tvmaze-series-analyzer-e3",
+    "task_type": "SingleUserTurn",
+    "needed_mcp_servers": [
+        "filesystem"
+    ],
+    "needed_local_tools": [
+        "tvmaze_api",
+        "skill_cache",
+        "claim_done"
+    ],
+    "max_turns": 80,
+    "timeout": 2400,
+    "stop": {
+        "tool_names": [
+            "local-claim_done"
+        ]
+    },
+    "meta": {
+        "category": "scaled_tasks",
+        "difficulty": "easy",
+        "estimated_api_calls": 9,
+        "subtask_count": 3,
+        "calls_per_subtask": 3,
+        "tools_used": [
+            "tvmaze_get_show_seasons",
+            "tvmaze_get_show_cast",
+            "tvmaze_get_show_crew"
+        ],
+        "skill_mode_target": true,
+        "expected_repetitions": 3,
+        "description": "TV series analysis with 3 shows \u00d7 3 API calls (easy difficulty)",
+        "base_task": "tvmaze-series-analyzer",
+        "scale_level": "e3"
+    }
+}

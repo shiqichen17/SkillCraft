@@ -1,0 +1,12 @@
+{
+  "names_to_analyze": [
+    {"name": "Michael", "expected_origin": "Western"},
+    {"name": "Yuki", "expected_origin": "Japanese"},
+    {"name": "Hans", "expected_origin": "German"},
+    {"name": "Maria", "expected_origin": "Hispanic"},
+    {"name": "Chen", "expected_origin": "Chinese"},
+    {"name": "Olga", "expected_origin": "Russian"}
+  ],
+  "output_file": "name_demographics.json"
+}
+

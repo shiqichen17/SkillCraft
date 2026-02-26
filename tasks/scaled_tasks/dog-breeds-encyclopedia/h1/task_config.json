@@ -1,0 +1,38 @@
+{
+    "task_name": "dog-breeds-encyclopedia-h1",
+    "task_type": "SingleUserTurn",
+    "needed_mcp_servers": [
+        "filesystem"
+    ],
+    "needed_local_tools": [
+        "dogapi",
+        "skill_cache",
+        "claim_done"
+    ],
+    "max_turns": 100,
+    "timeout": 3600,
+    "stop": {
+        "tool_names": [
+            "local-claim_done"
+        ]
+    },
+    "meta": {
+        "category": "scaled_tasks",
+        "difficulty": "hard",
+        "estimated_api_calls": 25,
+        "subtask_count": 5,
+        "calls_per_subtask": 5,
+        "tools_used": [
+            "dog_breed_info",
+            "dog_breed_images",
+            "dog_sub_breed_images",
+            "dog_breed_all_sub_breeds",
+            "dog_breed_gallery"
+        ],
+        "skill_mode_target": true,
+        "expected_repetitions": 5,
+        "description": "Dog breeds encyclopedia with 5 breeds \u00d7 5 APIs (hard)",
+        "base_task": "dog-breeds-encyclopedia",
+        "scale_level": "h1"
+    }
+}

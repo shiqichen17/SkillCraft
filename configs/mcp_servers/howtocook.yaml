@@ -1,0 +1,13 @@
+# How to Cook
+# Source: https://github.com/worryzyy/HowToCook-mcp
+# Toolathlon Version: https://github.com/lockon-n/HowToCook-mcp
+type: stdio
+name: howtocook
+params:
+  command: npx
+  args:
+    - "-y"
+    - "howtocook-mcp"
+  cwd: "${agent_workspace}"
+client_session_timeout_seconds: 1000
+cache_tools_list: true
