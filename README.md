@@ -1,6 +1,10 @@
 # SkillCraft
 
-Official implementation of the **SkillCraft** paper.
+<p align="center">
+  <img src="main.PNG" alt="SkillCraft Overview" width="800">
+</p>
+
+Official implementation of the **SkillCraft** paper: [SkillCraft: Can LLM Agents Learn to Use Tools Skillfully?](https://arxiv.org/abs/2603.00718)
 
 ## Project Overview
 
@@ -121,5 +125,16 @@ For result validation, check:
 
 ## Citation
 
-If you use this repository, please cite the SkillCraft paper.
-(BibTeX entry can be added once the public version is finalized.)
+If you use this repository, please cite the SkillCraft paper:
+
+```bibtex
+@misc{chen2026skillcraftllmagentslearn,
+      title={SkillCraft: Can LLM Agents Learn to Use Tools Skillfully?},
+      author={Shiqi Chen and Jingze Gai and Ruochen Zhou and Jinghan Zhang and Tongyao Zhu and Junlong Li and Kangrui Wang and Zihan Wang and Zhengyu Chen and Klara Kaleb and Ning Miao and Siyang Gao and Cong Lu and Manling Li and Junxian He and Yee Whye Teh},
+      year={2026},
+      eprint={2603.00718},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.00718},
+}
+```
