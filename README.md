@@ -1,7 +1,7 @@
 # SkillCraft
 
 <p align="center">
-  <img src="main.PNG" alt="SkillCraft Overview" width="800">
+  <img src="main.png" alt="SkillCraft Overview" width="800">
 </p>
 
 Official implementation of the **SkillCraft** paper: [SkillCraft: Can LLM Agents Learn to Use Tools Skillfully?](https://arxiv.org/abs/2603.00718)
