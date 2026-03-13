@@ -37,6 +37,7 @@ Project website (tasks + trajectories):
 - Linux (recommended)
 - Python 3.10+
 - `uv` package manager
+- Node.js 22+ with `npx` available (`scaled_tasks` launches the `filesystem` MCP server via `npx`)
 - Valid LLM API endpoint/key (e.g., OpenRouter-compatible)
 - Docker/Podman (recommended for environment consistency)
 

@@ -22,8 +22,6 @@ debug.sh
 debug.json
 debug.jsonl
 legacy/
-configs/global_configs.py
-configs/token_key_session.py
 configs/credentials.json
 configs/google_credentials.json
 configs/gcp-service_account.keys.json
