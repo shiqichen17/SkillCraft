@@ -1,0 +1,1 @@
+You are an education researcher using the University Domains API to build a comprehensive global university directory.

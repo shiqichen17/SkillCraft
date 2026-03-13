@@ -1,0 +1,67 @@
+# Task: Economic Snapshot (4 Countries × 4 APIs) - M1
+
+Create economic snapshots for **4 major economies** using 4 API endpoints per country.
+
+## Objective
+
+For each of the following **4 countries**, collect:
+1. **Economic Snapshot**: comprehensive economic overview
+2. **GDP Data**: GDP and GDP per capita
+3. **Country Info**: basic country information
+4. **Indicators**: various economic indicators
+
+Calculate **economic power rank** and **development tier** for each country.
+
+## Countries to Analyze
+
+| # | Country | Code | Region |
+|---|---------|------|--------|
+| 1 | United States | US | North America |
+| 2 | China | CHN | East Asia & Pacific |
+| 3 | Japan | JPN | East Asia & Pacific |
+| 4 | Germany | DEU | Europe & Central Asia |
+
+## Required Output
+
+Save results to `economic_snapshot.json`:
+
+```json
+{
+  "economies": [
+    {"country_code": "US", "country_name": "United States", "region": "North America", "economic_indicators": {}, "economic_power_rank": 1, "development_tier": "Advanced"}
+  ],
+  "summary": {"total_countries": 4, "largest_economy": {"country": "United States"}},
+  "analysis_date": "2024-01-15"
+}
+```
+
+## Tools Available
+
+- `local-worldbank_economic_snapshot`: Economic Snapshot
+- `local-worldbank_gdp`: GDP Data
+- `local-worldbank_country_info`: Country Info
+- `local-worldbank_indicator`: Indicators
+
+**File System:** `filesystem-write_file`, `filesystem-read_file`
+**Completion:** `local-claim_done` (REQUIRED)
+
+## Workflow
+
+For each country (US, CHN, JPN, DEU):
+1. `local-worldbank_economic_snapshot`
+2. `local-worldbank_gdp`
+3. `local-worldbank_country_info`
+4. `local-worldbank_indicator`
+
+## Development Tier
+
+- **Advanced**: GDP per capita > $40,000
+- **Developed**: GDP per capita > $20,000
+- **Developing**: GDP per capita > $5,000
+- **Emerging**: GDP per capita <= $5,000
+
+## Important
+
+1. Process ALL 4 countries completely
+2. Format currency values properly
+3. Call `local-claim_done` to complete

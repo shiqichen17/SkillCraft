@@ -2,6 +2,8 @@
 .venv
 .python-version
 docs/
+!tasks/**/docs/
+!tasks/**/docs/*.md
 # pyproject.toml
 # uv.lock
 
